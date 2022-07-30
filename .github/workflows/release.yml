@@ -21,9 +21,10 @@ jobs:
       - name: go mod tidy
         run: |
           make tidy
-      - name: golangci lint
-        run: |
-          make lint
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v3
+        with:
+          version: latest
       - name: go test
         run: |
           make go_test
