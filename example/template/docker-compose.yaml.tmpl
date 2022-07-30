@@ -1,0 +1,8 @@
+version: "3"
+services:
+  {{ .model.name }}:
+    build:
+      context: .
+      dockerfile: ./{{ .model.name }}/cmd/cli/Dockerfile
+    ports:
+      - 8080:8080

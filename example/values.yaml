@@ -1,0 +1,9 @@
+model:
+  name: user
+  events:
+    - name: create
+      message: userCreateEvent
+    - name: update
+      message: userUpdateEvent
+    - name: delete
+      message: userDeleteEvent

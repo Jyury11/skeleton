@@ -1,0 +1,25 @@
+linters-settings:
+  staticcheck:
+    # Select the Go version to target. The default is '1.13'.
+    go: "1.18"
+    # https://staticcheck.io/docs/options#checks
+    checks: ["all"]
+  gocyclo:
+    # minimal code complexity to report, 30 by default (but we recommend 10-20)
+    min-complexity: 20
+linters:
+  enable:
+    - goimports
+    - govet
+    - staticcheck
+    - gocyclo
+  disable:
+    - structcheck
+issues:
+  fix: true
+  exclude-rules:
+    - path: example
+      linters:
+        - structcheck
+        - unused
+        - deadcode
