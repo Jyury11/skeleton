@@ -19,7 +19,7 @@ go install -v github.com/jyury11/skeleton/cmd/skeleton@latest
 linux
 
 ```bash
-curl -sfL https://raw.githubusercontent.com/d-tsuji/qiisync/master/install.sh | sudo sh -s -- -b /usr/local/bin
+curl -sfL https://raw.githubusercontent.com/Jyury11/skeleton/main/install.sh | sudo sh -s -- -b /usr/local/bin
 ```
 
 [gihub releases](<https://github.com/jyury11/skeleton/releases>)
