@@ -47,7 +47,7 @@ skeleton create --service user --src ./template --dst ./dst --values values.yaml
     5. `ToUpper`          : [`strings.ToUpper`](https://golang.org/pkg/strings/#ToUpper)
     6. `ToLower`          : [`strings.ToLower`](https://golang.org/pkg/strings/#ToLower)
     7. `ToTitle`          : [`strings.ToTitle`](https://golang.org/pkg/strings/#ToTitle)
-    8. `Title`          : [`cases.Title(language.Und, cases.NoLower).String`](https://pkg.go.dev/golang.org/x/text/cases#Title)
+    8. `Title`            : [`cases.Title(language.Und, cases.NoLower).String`](https://pkg.go.dev/golang.org/x/text/cases#Title)
 
 ## Options
 
