@@ -24,7 +24,7 @@ skeleton create --service user --src ./template --dst ./dst --values values.yaml
 
 ## Example
 
-[example](https://github.com/Jyury11/skeleton/example)
+[example](https://github.com/Jyury11/skeleton/tree/main/example)
 
 ## Description
 
