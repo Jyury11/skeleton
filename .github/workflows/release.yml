@@ -18,9 +18,6 @@ jobs:
         uses: actions/setup-go@v1
         with:
           go-version: 1.18
-      - name: go mod tidy
-        run: |
-          make tidy
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v3
         with:
@@ -37,6 +34,10 @@ jobs:
         uses: actions/setup-go@v1
         with:
           go-version: 1.18
+      - name: go mod tidy
+        run: |
+          make tidy
+          go get -u golang.org/x/sys
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v1
         with:
