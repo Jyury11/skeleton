@@ -22,7 +22,6 @@ jobs:
         run: |
           make tidy
           go get -u golang.org/x/sys
-          go mod vendor
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v3
         with:
