@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Jyury11/skeleton/cmd/lib"
+	"github.com/jyury11/skeleton/cmd/lib"
 )
 
 func TestMain(t *testing.T) {

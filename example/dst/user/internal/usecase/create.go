@@ -5,8 +5,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/Jyury11/skeleton/example/dst/user/internal/entity"
-	"github.com/Jyury11/skeleton/example/dst/user/internal/repository"
+	"github.com/jyury11/skeleton/example/dst/user/internal/entity"
+	"github.com/jyury11/skeleton/example/dst/user/internal/repository"
 )
 
 // CreateCommand ...

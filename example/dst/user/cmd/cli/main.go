@@ -4,7 +4,7 @@ package main
 import (
 	"context"
 
-	"github.com/Jyury11/skeleton/example/dst/user/cmd/cli/di"
+	"github.com/jyury11/skeleton/example/dst/user/cmd/cli/di"
 )
 
 func main() {

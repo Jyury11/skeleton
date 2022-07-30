@@ -3,10 +3,10 @@ package commands
 import (
 	"context"
 
-	"github.com/Jyury11/skeleton/internal/write/domain/service"
-	"github.com/Jyury11/skeleton/internal/write/domain/vo"
-	"github.com/Jyury11/skeleton/internal/write/repository"
 	"github.com/friendsofgo/errors"
+	"github.com/jyury11/skeleton/internal/write/domain/service"
+	"github.com/jyury11/skeleton/internal/write/domain/vo"
+	"github.com/jyury11/skeleton/internal/write/repository"
 )
 
 // CreateCommand CreateCommand

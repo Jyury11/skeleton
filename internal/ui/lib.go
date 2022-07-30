@@ -3,8 +3,8 @@ package ui
 import (
 	"context"
 
-	"github.com/Jyury11/skeleton/internal/write/commands"
 	"github.com/google/wire"
+	"github.com/jyury11/skeleton/internal/write/commands"
 )
 
 // Library Library UI

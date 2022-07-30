@@ -1,7 +1,7 @@
 package lib
 
 import (
-	"github.com/Jyury11/skeleton/cmd/lib/di"
+	"github.com/jyury11/skeleton/cmd/lib/di"
 )
 
 // CreateArgs Create Skeleton Args

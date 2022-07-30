@@ -11,10 +11,10 @@ yamlファイルで変数を宣言し、`text/template`で使用し自由にカ�
 ## Installation
 
 ```bash
-go get github.com/Jyury11/skeleton
+go get github.com/jyury11/skeleton
 ```
 
-[gihub releases](<https://github.com/Jyury11/skeleton/releases>)
+[gihub releases](<https://github.com/jyury11/skeleton/releases>)
 
 ## Usage
 
@@ -24,7 +24,7 @@ skeleton create --service user --src ./template --dst ./dst --values values.yaml
 
 ## Example
 
-[example](https://github.com/Jyury11/skeleton/tree/main/example)
+[example](https://github.com/jyury11/skeleton/tree/main/example)
 
 ## Description
 
@@ -80,7 +80,7 @@ import (
  "path/filepath"
  "testing"
 
- "github.com/Jyury11/skeleton/cmd/lib"
+ "github.com/jyury11/skeleton/cmd/lib"
 )
 
 func TestMain(t *testing.T) {

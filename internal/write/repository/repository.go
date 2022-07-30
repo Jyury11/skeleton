@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"github.com/Jyury11/skeleton/internal/write/domain/entity"
-	"github.com/Jyury11/skeleton/internal/write/domain/vo"
+	"github.com/jyury11/skeleton/internal/write/domain/entity"
+	"github.com/jyury11/skeleton/internal/write/domain/vo"
 )
 
 // Repository Repository Interface

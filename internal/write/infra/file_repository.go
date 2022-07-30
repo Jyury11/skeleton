@@ -11,9 +11,9 @@ import (
 	"github.com/goccy/go-yaml"
 	"github.com/pkg/errors"
 
-	"github.com/Jyury11/skeleton/internal/write/domain/entity"
-	"github.com/Jyury11/skeleton/internal/write/domain/vo"
-	"github.com/Jyury11/skeleton/internal/write/repository"
+	"github.com/jyury11/skeleton/internal/write/domain/entity"
+	"github.com/jyury11/skeleton/internal/write/domain/vo"
+	"github.com/jyury11/skeleton/internal/write/repository"
 )
 
 const (

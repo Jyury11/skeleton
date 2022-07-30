@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/Jyury11/skeleton/internal/write/domain/vo"
+	"github.com/jyury11/skeleton/internal/write/domain/vo"
 
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

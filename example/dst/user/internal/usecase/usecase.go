@@ -2,7 +2,7 @@
 
 package usecase
 import (
-	"github.com/Jyury11/skeleton/example/dst/user/internal/repository"
+	"github.com/jyury11/skeleton/example/dst/user/internal/repository"
 )
 
 // UseCases ...

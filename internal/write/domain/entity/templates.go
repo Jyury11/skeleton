@@ -3,7 +3,7 @@ package entity
 import (
 	"errors"
 
-	"github.com/Jyury11/skeleton/internal/write/domain/vo"
+	"github.com/jyury11/skeleton/internal/write/domain/vo"
 )
 
 // Error Constance

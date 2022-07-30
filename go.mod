@@ -1,4 +1,4 @@
-module github.com/Jyury11/skeleton
+module github.com/jyury11/skeleton
 
 go 1.18
 

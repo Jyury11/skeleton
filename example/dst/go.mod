@@ -1,3 +1,3 @@
-module github.com/Jyury11/skeleton/example/dst
+module github.com/jyury11/skeleton/example/dst
 
 go 1.18

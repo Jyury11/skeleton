@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/Jyury11/skeleton/internal/write/domain/service"
-	"github.com/Jyury11/skeleton/internal/write/repository"
+	"github.com/jyury11/skeleton/internal/write/domain/service"
+	"github.com/jyury11/skeleton/internal/write/repository"
 )
 
 // Commands Commands

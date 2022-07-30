@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Jyury11/skeleton/cmd/cli/di"
+	"github.com/jyury11/skeleton/cmd/cli/di"
 )
 
 func main() {

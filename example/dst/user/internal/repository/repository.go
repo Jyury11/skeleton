@@ -3,7 +3,7 @@
 package repository
 
 import (
-	"github.com/Jyury11/skeleton/example/dst/user/internal/entity"
+	"github.com/jyury11/skeleton/example/dst/user/internal/entity"
 )
 
 // Repository ...

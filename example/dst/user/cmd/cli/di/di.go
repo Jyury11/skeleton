@@ -3,9 +3,9 @@
 package di
 
 import (
-	"github.com/Jyury11/skeleton/example/dst/user/internal/infra"
-	"github.com/Jyury11/skeleton/example/dst/user/internal/ui"
-	"github.com/Jyury11/skeleton/example/dst/user/internal/usecase"
+	"github.com/jyury11/skeleton/example/dst/user/internal/infra"
+	"github.com/jyury11/skeleton/example/dst/user/internal/ui"
+	"github.com/jyury11/skeleton/example/dst/user/internal/usecase"
 )
 
 // InitializeCLI Create DI Container
