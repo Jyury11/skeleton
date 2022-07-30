@@ -3,7 +3,7 @@ before:
   hooks:
     - go mod tidy
 builds:
-  - main: ./cmd/cli
+  - main: ./cmd/skeleton
     binary: skeleton
     ldflags:
       - -s -w

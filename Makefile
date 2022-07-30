@@ -8,7 +8,7 @@ help: ## help for skeleton
 # cli
 .PHONY: cli
 cli: ## go run cmd/cli/main.go
-	go run cmd/cli/main.go $(ARG)
+	go run cmd/skeleton/main.go $(ARG)
 
 # go test
 .PHONY: go_test

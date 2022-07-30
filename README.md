@@ -10,8 +10,16 @@ yamlファイルで変数を宣言し、`text/template`で使用し自由にカ�
 
 ## Installation
 
+go
+
 ```bash
-go get github.com/jyury11/skeleton
+go install -v github.com/jyury11/skeleton/cmd/skeleton@latest
+```
+
+linux
+
+```bash
+curl -sfL https://raw.githubusercontent.com/d-tsuji/qiisync/master/install.sh | sudo sh -s -- -b /usr/local/bin
 ```
 
 [gihub releases](<https://github.com/jyury11/skeleton/releases>)
