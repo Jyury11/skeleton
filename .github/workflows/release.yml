@@ -2,7 +2,11 @@ name: release
 on:
   push:
     tags:
-      - "v[0-9]+.[0-9]+.[0-9]+"
+      - "v*"
+    paths:
+      - "cmd/**/*.go"
+      - "internal/**/*.go"
+      - ".github/workflows/release.yml"
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
